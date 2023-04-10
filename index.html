@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculator</h1>
+        <div class="form-container">
+        <div>
+            <form action="">
+                <input type="number" name="firstNumber" id="firstNumber" placeholder="number">
+                <select class="selection-box" name="" id="operation">
+                    <option value="addition">&plus;</option>
+                    <option value="subtraction">&minus;</option>
+                    <option value="multiplication">&times;</option>
+                    <option value="division">&divide;</option>
+                </select>
+                <input type="number" name="secondNumber" id="secondNumber" placeholder="number">
+                <button onclick="calculate ()" type="button">&equals;</button>
+                <div class="answer">
+                    <p id="result"></p>
+
+                </div>
+            </form>
+        </div>
+        </div>
+    </div>
+</body>
+    <script src="script.js"></script>
+</html>
