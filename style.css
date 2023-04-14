@@ -1,0 +1,72 @@
+body{
+    background-color: lightgrey;
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(32, 34, 41);
+    padding: .5em;
+    color:rgb(243, 250, 246);
+}
+
+@font-face {
+    font-family: "digital-7";
+    src: url(fonts/digital-7/digital-7.ttf) format('truetype');
+}
+
+.container{
+    display: block;
+    background-color: rgb(50, 50, 50);
+    max-width: 75%;
+}
+
+.form-container{
+    display: flex;
+    padding: 1em 0 3em 0;
+    justify-content: center;
+}
+
+form {
+    display: inline-flex;
+}
+
+input{
+    outline: none;
+    box-shadow: none;
+    height: 40px;
+    width: 150px;
+    font-family: digital-7;
+    font-size: 20pt;
+    text-align: center;
+    margin: 0;
+    background-color: rgb(80, 80, 80);
+    color: lime;
+}
+
+select{
+    font-size: 20pt;
+    width: 50px;
+    background-color: rgb(80, 80, 80);
+    color: limegreen;
+}
+
+.answer {
+    padding-left: 3%;
+}
+
+p {
+    margin: 0;
+    height: 40px;
+    width: 120px;
+    font-family: digital-7;
+    font-size: 35pt;
+    color: limegreen;
+}
+
+button{
+    font-size: 20pt;
+    margin: 0;
+    width: 50px;
+    background-color: rgb(80, 80, 80);
+    color: limegreen;
+}
